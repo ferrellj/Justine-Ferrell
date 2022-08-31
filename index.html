@@ -120,7 +120,9 @@
         </div>
 
     </section>
-
+    <div class="return">
+      <a id="returnLink" href="javascript:void(0)">BACK TO TOP</a>
+    </div>
 
         <footer>
           <div class="footerContent">
@@ -175,6 +177,16 @@ const navbarLinks = document.getElementsByClassName('navLinks')[0]
 togglebutton.addEventListener('click',()=> {
   navbarLinks.classList.toggle('active')
 })
+
+let returnLink = document.querySelector("#returnLink");
+let navbar = document.querySelector(".navbar");
+
+returnLink.addEventListener("click",navigateReturn,false);
+function navigateReturn(e){
+  navbar.scrollIntoView({
+    behavior:"smooth"
+  });
+}
                 </script>
       </body>
     </html>
