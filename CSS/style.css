@@ -35,6 +35,7 @@ a:hover{
   position: fixed;
   width: 100%;
   top: 0;
+  margin-bottom: 10%;
 }
 .brand-title{
   margin:.5rem;
@@ -114,6 +115,7 @@ height: 21px;
   background-repeat: no-repeat;
   background-size: contain;
   flex-wrap: wrap;
+  margin-top: 5%;
 }
 .textBox{
   flex: 5;
@@ -140,8 +142,8 @@ height: 21px;
   margin-bottom: 2%;
 }
 .skills_container{
-  background-color:#D4D4D4;
-display: flex;
+background-color:#D4D4D4;
+display: inline-flex;
 flex-direction: row;
 align-items: center;
 justify-content: center;
