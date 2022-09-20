@@ -113,9 +113,9 @@ height: 21px;
     display: flex;
     background-image: url(../Images/HeroIMGfade.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   flex-wrap: wrap;
-  margin-top: 5%;
+  margin-top: 7%;
 }
 .textBox{
   flex: 5;
