@@ -145,27 +145,27 @@ height: 21px;
   margin-top: 2%;
   margin-bottom: 2%;
 }
+
 .skills_container{
-background-color:#D4D4D4;
-display: inline-flex;
-flex-direction: row;
-align-items: center;
-justify-content: center;
 flex-wrap: wrap;
-margin-bottom: 5%;
-}
-.research, .ui, .webDev{
-flex: 5;
-flex-basis: 400px;
-padding:5%;
-display: flex;
-flex-direction: column;
+flex-basis:200px ;
+background-color:#D4D4D4;
+display:flex;
 align-items: center;
 justify-content: center;
 }
-.research h3{
-  text-align: center;
+
+.research,.ui,.webDev{
+  width: 500px;
+  padding: 2%;
+  align-items: center;
 }
+.skillsText{
+height: 200px;
+margin-top: 1%;
+}
+
+
 
 
  
