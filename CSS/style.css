@@ -69,7 +69,12 @@ a:active {
   padding: 1rem;
   display: block;
 }
-.navLinks li:hover{
+.navLinks li a:hover{
+  font-weight: 800;
+  text-decoration: underline;
+}
+
+.navLinks li a:active{
   font-weight: 800;
   text-decoration: underline;
 }
@@ -256,8 +261,9 @@ footer{
     align-items: center;
     margin-top: 15%;
     justify-content: space-evenly;
- 
+    padding: 5%;
   }
+
  
 .footerLinks{
   display: flex;
