@@ -30,7 +30,7 @@
       <section id="hero">
         <div class="heroContainer">
             <div class="textBox">
-            <h1>
+            <h3>
                 Hi! I am Justine.
                 I am a UX designer/researcher with an industry background in apparel product development.  
                 Maybe it's the middle child in me, but I have always had this drive to find new ways to approach a task or need.  
@@ -38,7 +38,7 @@
                 on research and translating those insights into design changes with trackable impact.   I am bringing with me 
                 experience focused on a buyer interacting with clothing.  Now I am excited to shift that angle of view to a user 
                 and their experience with web applications.            
-              </h1>
+              </h3>
               <img class="signature" src="/Images/signature.png"></img>
         </div>
         <img class="profilePic" src="Images\Justine 2.png" style="width: 80%;"></img>
@@ -53,21 +53,21 @@
 <div class="research">
 <img src="Images\UserResearchSQ.png"style="max-width: 85%;"></img>
 <div class="skillsText">
-<h3>Research</h3>
+<h2>Research</h2>
 <p>In-person & virtual user interviews, Surveys, User tests, Empathy Maps, Journey Maps, Story Boarding</p>
 </div>
 </div>
 <div class="ui">
 <img src="Images\sitemapSQ.png"style="max-width: 85%;"></img>
 <div class="skillsText">
-  <h3>User Interface</h3>
+  <h2>User Interface</h2>
 <p >Defining UI System Structures, Site Mapping, Card Sorting, Low Through High-Fidelity Prototyping in Figma and Adobe XD, Usability Testing and Analyzing Testing Results, Scaling UI Solutions for Different Screens</p>
 </div>
 </div>
 <div class="webDev">
 <img src="Images\website devSQ.png"style="max-width: 85%;"></img>
 <div class="skillsText">
-<h3>Web Development</h3>
+<h2>Web Development</h2>
 <p>Responsive Web Design, Grid Layouts, Using Media Queries, Conditional Style Sheets, HTML, CSS, JQuery, GitHub, Bootstrap</p>
 </div>
 </div>
@@ -143,7 +143,7 @@
           </div>
             <div id="contact">
               <p>Contact:</p>
-              <p>(715)492-8817</p>
+              <p>(715) 492-8817</p>
               <p>justine.m.ferrell@gmail.com</p>
             </div>
           </div>
@@ -189,11 +189,11 @@ togglebutton.addEventListener('click',()=> {
 })
 
 let returnLink = document.querySelector("#returnLink");
-let navbar = document.querySelector(".navbar");
+let navLinks = document.querySelector(".navLinks");
 
 returnLink.addEventListener("click",navigateReturn,false);
 function navigateReturn(e){
-  navbar.scrollIntoView({
+  navLinks.scrollIntoView({
     behavior:"smooth"
   });
 }
