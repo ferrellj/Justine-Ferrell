@@ -126,13 +126,17 @@ height: 21px;
   flex-basis: 200px;
  
 }
-.heroContainer img{
+.profilePic{
   flex: 5;
   margin-top: 5%;
   margin-left:5% ;
   margin-right: 5%;
   flex-basis: 200px;
  
+}
+.signature{
+  width: 18%;
+  margin-left: 75%;
 }
 .title{
   display: flex;
