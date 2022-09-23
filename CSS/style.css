@@ -143,16 +143,13 @@ height: 21px;
   width: 30%;
   margin-top: 26%;
   margin-left: 5%;
-  margin-right: 5%;
-  flex-basis: 300px;
- 
+  margin-right: 5%; 
 }
 .profilePic{
   flex: 5;
   margin-top: 5%;
   margin-left:5% ;
   margin-right: 5%;
-  flex-basis: 300px;
  align-items: center;
  justify-content: center;
 }
