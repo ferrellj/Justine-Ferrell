@@ -144,7 +144,7 @@ height: 21px;
   margin-top: 26%;
   margin-left: 5%;
   margin-right: 5%;
-  flex-basis: 400px;
+  flex-basis: 300px;
  
 }
 .profilePic{
@@ -152,7 +152,7 @@ height: 21px;
   margin-top: 5%;
   margin-left:5% ;
   margin-right: 5%;
-  flex-basis: 400px;
+  flex-basis: 300px;
  align-items: center;
  justify-content: center;
 }
