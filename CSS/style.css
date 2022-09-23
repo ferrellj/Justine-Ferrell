@@ -97,6 +97,25 @@ height: 21px;
 }
 
 @media (max-width: 800px) {
+
+  h1{
+    font-size: 18pt!important;
+    font-weight: 800;
+  }
+
+  h2{
+    font-size: 18pt!important;
+    font-weight: 700;
+  }
+
+  h3{
+    font-size: 14pt!important;
+  }
+
+  p{
+    font-size: 12pt!important;
+  }
+
   .toggle-button{
     display: flex;
   }
