@@ -65,7 +65,13 @@ a:active {
   list-style: none;
 }
 .navLinks img{
-  margin-top: -5%!important;
+  margin-right: 15px;
+  margin-top: 5px;
+  padding: 5%;
+}
+.navLinks img:hover{
+  background-color: transparent!important;
+  transform: scale(1.2);
 }
 .navLinks li a:link{
   text-decoration: none;
