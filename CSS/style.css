@@ -75,12 +75,16 @@ a:active {
 }
 .navLinks li a:hover{
   font-weight: 800;
-  text-decoration: underline;
+  background-color:#D4D4D4;
 }
-
+.navLinks li a:focus{
+  font-weight: 800;
+  background-color:#D4D4D4;
+  transform: scale(.7);
+}
 .navLinks li a:active{
   font-weight: 800;
-  text-decoration: underline;
+  background-color:#D4D4D4;
 }
 /*toggle*/
 .toggle-button{
