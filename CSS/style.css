@@ -43,7 +43,7 @@ a:active {
 
 .navbar{
   display: flex;
-  align-items: center;
+  text-align: center;
   justify-content: space-between;
   background-color: #ffffff;
   color: black;
@@ -55,6 +55,7 @@ a:active {
 .brand-title{
   margin:.5rem;
 }
+
 .navLinks ul{
   display: flex;
   margin: o;
@@ -62,6 +63,9 @@ a:active {
 }
 .navLinks li{
   list-style: none;
+}
+.navLinks img{
+  margin-top: -5%!important;
 }
 .navLinks li a:link{
   text-decoration: none;
