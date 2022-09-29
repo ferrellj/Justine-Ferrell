@@ -115,26 +115,14 @@ height: 21px;
     max-width: 50%;
    margin-left: 1.5%!important;
    }
+   .navLinks img{
+    margin-right: 12px;
+    margin-top: .5px;
+    padding: 1%;
+  }
    .brand-title{
     margin-top:.5rem;
     margin-left: -1.5rem;
-  }
-  h1{
-    font-size: 18pt!important;
-    font-weight: 800;
-  }
-
-  h2{
-    font-size: 18pt!important;
-    font-weight: 700;
-  }
-
-  h3{
-    font-size: 14pt!important;
-  }
-
-  p{
-    font-size: 12pt!important;
   }
 
   .toggle-button{
