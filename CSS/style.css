@@ -113,9 +113,12 @@ height: 21px;
 @media (max-width: 800px) {
   .navbar img{
     max-width: 50%;
-   margin-left: 30%!important;
+   margin-left: 1.5%!important;
    }
-
+   .brand-title{
+    margin-top:.5rem;
+    margin-left: -1.5rem;
+  }
   h1{
     font-size: 18pt!important;
     font-weight: 800;
