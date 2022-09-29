@@ -5,9 +5,7 @@ body{
   color: black;
   font-family: roboto, sans-serif;
 }
-p{
-  padding: %;
-}
+
 h1{font-size: 1.6em; line-height: calc(30px + 1vw);}
 h2{font-size: 1.4em;line-height: calc(26px + 1vw);}
 h3{font-size: 1.2em;line-height: calc(24px + 1vw);}
@@ -26,6 +24,12 @@ h3 {
   line-height: 1.2;
   margin: 0 0 10px 0;
   font-weight: 500;
+}
+
+a:link{
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 a:link{
