@@ -51,10 +51,10 @@ a:active {
   justify-content: space-between;
   background-color: #ffffff;
   color: black;
-  position: fixed;
+  position: fixed!important;
   width: 100%;
   top: 0;
-  margin-bottom: 10%;
+  margin-bottom: 1%;
 }
 .brand-title{
   margin:.5rem;
