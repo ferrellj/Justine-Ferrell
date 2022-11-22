@@ -39,10 +39,10 @@ a:link{
 }
 a:hover{
   font-weight: 800;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:active {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .navbar{
