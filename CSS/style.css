@@ -280,6 +280,33 @@ margin-top: 1%;
   margin-right: 11%;
 }
  
+button{
+  float: right;
+  background-color: #a66c4b;
+  color: white;
+  border-style:hidden;
+  border-color: transparent;
+  font-family: roboto, sans-serif;
+  border-radius: 5PX!important;
+  margin-right: 15%!important;
+}
+button:hover{
+  font-weight: 700;
+  border-style:hidden;
+  border-color: transparent;
+}
+button:focus{
+  font-weight: 700;
+  border-style:hidden;
+  border-color: transparent!important;
+}
+button:active{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: scale(1.2);
+  border-color: transparent!important;
+  border-style: hidden!important;
+}
+
 /*footer*/
  
 footer{
