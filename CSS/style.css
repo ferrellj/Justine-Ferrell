@@ -279,13 +279,12 @@ margin-top: 1%;
   float: right;
   margin-right: 11%;
 }
-#goToCS a{
-   color: white;
-}
+
 #goToCS{
   padding: 10px;
   width: 130px;
   background-color: #a66c4b;
+  color: white;
   border-style:hidden;
   border-color: transparent;
   font-family: roboto, sans-serif;
